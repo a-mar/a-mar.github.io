@@ -1,2 +1,9 @@
 name: a-mar
 markdown: markdown
+defaults:
+  -
+    scope:
+      path: "_layouts"
+      type: "html"
+    values:
+      layout: "landing"
