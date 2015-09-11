@@ -3,8 +3,8 @@
 }
 
 @font-face {
-  font-family: "Bauer";
-  src:("https://github.com/a-mar/shiz/blob/master/ergh/BauerGroteskWebPro-Medium.woff") format("woff");
+  font-family: Bauer;
+  src:(https://github.com/a-mar/shiz/blob/master/ergh/BauerGroteskWebPro-Medium.woff) format(woff);
 }
 
 body {
