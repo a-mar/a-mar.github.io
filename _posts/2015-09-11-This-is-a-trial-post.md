@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post
+title: This is a trial post
 date: 2015-09-11
 ---
 
