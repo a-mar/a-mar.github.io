@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Bauer";
+  src:("https://github.com/a-mar/shiz/blob/master/ergh/BauerGroteskWebPro-Medium.woff") format("woff");
+}
+
 body {
   width:73%;
   padding:0px 70px 70px;
@@ -86,6 +91,7 @@ h6 {
 }
 
 .page-header {
+  font-family:"Bauer", sans-serif;
   color: #fff;
   text-align: center;
   font-size: 300%;
