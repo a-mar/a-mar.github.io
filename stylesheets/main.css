@@ -7,6 +7,11 @@
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/BauerGroteskWebPro-Medium.woff') format('woff');
 }
 
+@font-face {
+  font-family:'Nuvo';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/NuvoWeb-Medi.woff') format('woff');
+}
+
 body {
   width:73%;
   padding:0px 70px 70px;
