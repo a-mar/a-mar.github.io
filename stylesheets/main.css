@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: "Bauer";
+  font-family: "BauerGroteskWebPro-Medium";
   src: url("https://github.com/a-mar/shiz/blob/master/ergh/BauerGroteskWebPro-Medium.woff") format("woff");
 }
 
@@ -91,7 +91,7 @@ h6 {
 }
 
 .page-header {
-  font-family:"Bauer", sans-serif;
+  font-family:"BauerGroteskWebPro-Medium", sans-serif;
   color: #fff;
   text-align: center;
   font-size: 300%;
