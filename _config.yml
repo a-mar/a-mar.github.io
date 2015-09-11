@@ -7,3 +7,4 @@ defaults:
       type: "html"
     values:
       layout: "landing"
+permalink: /blog/:year/:month/:day/:title
