@@ -1,0 +1,22 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Blog Blog Blog Blog</title>
+	<link href="http://a-mar.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://a-mar.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://a-mar.github.io/blog</id>
+	<author>
+		<name>a-mar</name>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://a-mar.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://a-mar.github.io/{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
