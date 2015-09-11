@@ -1,10 +1,3 @@
 name: a-mar
 markdown: markdown
-defaults:
-  -
-    scope:
-      path: "_layouts"
-      type: "html"
-    values:
-      layout: "landing"
 permalink: /blog/:year/:month/:day/:title
