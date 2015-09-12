@@ -142,6 +142,13 @@ h6 {
   font-family:'Bauer', sans-serif;
   text-align: center;
   font-size:5rem;
+  font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  text-transform: none;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -moz-font-feature-settings: "kern=1, liga=1, ss02=1, ss03=1, titl=1, tnum=1, lnum=1";
+  -ms-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
+  -o-font-feature-settings: "kern" 1, "liga" 1, "ss02" 1, "ss03" 1, "titl" 1, "tnum" 1, "lnum" 1;
 }
   
 .page-header a {
