@@ -120,9 +120,9 @@ h6 {
     margin-right: 0;
 }
 
-.page-header {
+.page-header h1, h2, h3, h4, h5, h6 {
+  color:#00B4F1;
   font-family:'Bauer', sans-serif;
-  color: #fff;
   text-align: center;
   font-size: 300%; }
 .page-header a {
