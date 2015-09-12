@@ -59,12 +59,12 @@ a {
     background-color: #FEE;
     border-radius: 10px}
 
-h1, h2, h3, h4, h5, h6 {
+.main-content h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
   font-family:'CooHewBk', sans-serif;
 }
 
-h1 { 
+.main-content h1 { 
     display: block;
     font-size: 200%;
     margin-top: 0.67em;
@@ -73,7 +73,7 @@ h1 {
     margin-right: 0;
 }
 
-h2 {
+.main-content h2 {
     display: block;
     font-size: 141%;
     margin-top: 0.83em;
@@ -82,7 +82,7 @@ h2 {
     margin-right: 0;
 }
 
-h3 { 
+.main-content h3 { 
     display: block;
     font-size: 115%;
     margin-top: 1em;
@@ -91,7 +91,7 @@ h3 {
     margin-right: 0;
 }
 
-h4 { 
+.main-contenth4 { 
     display: block;
     margin-top: 1.33em;
     margin-bottom: 1.33em;
@@ -99,7 +99,7 @@ h4 {
     margin-right: 0;
 }
 
-h5 { 
+.main-content h5 { 
     display: block;
     font-size: 89%;
     text-transform:uppercase;
@@ -109,7 +109,7 @@ h5 {
     margin-right: 0;
 }
 
-h6 { 
+.main-content h6 { 
     display: block;
     font-size: 82%;
     text-transform:uppercase;
