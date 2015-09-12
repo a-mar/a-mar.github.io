@@ -200,3 +200,8 @@ nav ul li {
     text-transform:lowercase;
     font-size: 90%;
 }
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
