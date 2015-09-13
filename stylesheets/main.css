@@ -68,10 +68,20 @@ strong {
 
 a {
   color: #1F3847;
-  text-decoration: none; }
+  text-decoration: none; 
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+}
   a:hover {
     background-color: #FEE;
-    border-radius: 10px}
+    border-radius: 10px }
 
 h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
