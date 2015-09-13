@@ -50,6 +50,15 @@ h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
   font-family:'CooHewBk', sans-serif;
   font-weight: normal;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
 h1 { 
@@ -175,13 +184,16 @@ nav ul li {
     margin-right:100px;
     margin-left:-40px;
     font-family:'Nuvo', sans-serif;
-    font-feature-settings: "unic";
-  text-transform: none;
-  -webkit-font-feature-settings: "unic";
-  -moz-font-feature-settings: "unic";
-  -moz-font-feature-settings: "unic";
-  -ms-font-feature-settings: "unic";
-  -o-font-feature-settings: "unic";
+    font-feature-settings: "c2sc";
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "c2sc";
+    -moz-font-feature-settings: "c2sc";
+    -moz-font-feature-settings: "c2sc";
+    -ms-font-feature-settings: "c2sc";
+    -o-font-feature-settings: "c2sc";
     font-size: 90%;
 }
 
