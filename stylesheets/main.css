@@ -152,6 +152,11 @@ h6 {
   text-align:right;
   float:right;
 }
+
+.site-footer-other li {
+    display: inline;
+}
+
 nav ul li {
     display: inline;
     margin-right:100px;
