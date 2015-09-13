@@ -8,10 +8,3 @@ title: BLAHG @ a-mar
     </section>
     
     <p>This isn't really a blog.</p>
-
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ page.date | date: "%-d %B %Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
