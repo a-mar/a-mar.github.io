@@ -25,59 +25,59 @@ p {
   font-family: 'FiraBook', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
 }
 
 em {
   font-family: 'FiraBookIt', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
 }
 
 strong {
   font-family: 'FiraMed', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
 }
 
 a {
   color: #1F3847;
   text-decoration: none; 
-  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
 }
   a:hover {
     background-color: #FEE;
@@ -87,15 +87,15 @@ h1, h2, h3, h4, h5, h6 {
   color:#00B4F1;
   font-family:'CooHewBk', sans-serif;
   font-weight: normal;
-  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
-  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
-  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -webkit-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -moz-font-feature-settings: inherit;
+  -ms-font-feature-settings: inherit;
+  -o-font-feature-settings: inherit;
 }
 
 h1 { 
@@ -230,5 +230,5 @@ img.displayed {
     margin-right: auto }
 
 li:not(:last-child) {
-    padding-bottom: 5.5px;
+    padding-bottom: 6px;
 }
