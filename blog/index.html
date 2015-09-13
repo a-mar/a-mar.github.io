@@ -1,0 +1,17 @@
+---
+layout: landingb
+title: BLAHG @ a-mar
+---
+
+    <section class="page-header">
+      <h2 class="project-tagline">Blog Blog Blog Blog</h2>
+    </section>
+    
+    <p>This isn't really a blog.</p>
+
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
