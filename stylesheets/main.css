@@ -184,15 +184,8 @@ nav ul li {
     margin-right:100px;
     margin-left:-40px;
     font-family:'Nuvo', sans-serif;
-    font-feature-settings: "c2sc";
     text-rendering: optimizeLegibility;
-    -webkit-font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: common-ligatures;
-    -webkit-font-feature-settings: "c2sc";
-    -moz-font-feature-settings: "c2sc";
-    -moz-font-feature-settings: "c2sc";
-    -ms-font-feature-settings: "c2sc";
-    -o-font-feature-settings: "c2sc";
+    font-variant:small-caps;
     font-size: 90%;
 }
 
