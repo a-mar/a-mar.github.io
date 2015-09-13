@@ -185,7 +185,6 @@ nav ul li {
     margin-left:-40px;
     font-family:'Nuvo', sans-serif;
     font-feature-settings: "c2sc";
-    text-transform: none;
     text-rendering: optimizeLegibility;
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;
