@@ -25,18 +25,45 @@ p {
   font-family: 'FiraBook', sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
 em {
   font-family: 'FiraBookIt', sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
 strong {
   font-family: 'FiraMed', sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-feature-settings: "liga", "pnum", "cpsp", "case";
+  text-rendering: optimizeLegibility;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -moz-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -ms-font-feature-settings: "liga", "pnum", "cpsp", "case";
+  -o-font-feature-settings: "liga", "pnum", "cpsp", "case";
 }
 
 a {
