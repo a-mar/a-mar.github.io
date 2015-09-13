@@ -184,15 +184,11 @@ nav ul li {
     margin-right:100px;
     margin-left:-40px;
     font-family:'Nuvo', sans-serif;
-    font-feature-settings: "liga", "smcp";
-    text-rendering: optimizeLegibility;
-    -webkit-font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: common-ligatures;
-    -webkit-font-feature-settings: "liga", "smcp";
-    -moz-font-feature-settings: "liga", "smcp";
-    -moz-font-feature-settings: "liga", "smcp";
-    -ms-font-feature-settings: "liga", "smcp";
-    -o-font-feature-settings: "liga", "smcp";
+    font-variant-caps: all-small-caps;
+    -moz-font-feature-settings: "c2sc", "smcp";
+    -ms-font-feature-settings: "c2sc", "smcp";
+    -webkit-font-feature-settings: "c2sc", "smcp";
+    font-feature-settings: "c2sc", "smcp";
     font-size: 90%;
 }
 
