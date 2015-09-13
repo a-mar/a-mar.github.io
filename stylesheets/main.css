@@ -159,6 +159,11 @@ h6 {
     margin-left:10px;
 }
 
+li.displayed {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;}
+
 nav ul li {
     display: inline;
     margin-right:100px;
