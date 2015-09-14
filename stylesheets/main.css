@@ -183,9 +183,9 @@ h6 {
     }
 
 #header{
-  margin-top:2rem;
+  margin-top:1rem;
   margin-bottom:2rem;
-  padding-top:2rem;
+  padding-top:1rem;
   padding-bottom:2rem;
   border-bottom: solid 1px #eff0f1;
 }
@@ -275,7 +275,7 @@ li.displayed {
 nav ul li {
     display: inline;
     margin-right:0px;
-    margin-left:40px;
+    margin-left:30px;
     font-family:'Nuvo', sans-serif;
     font-size: 90%;
 }
