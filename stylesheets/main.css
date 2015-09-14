@@ -274,8 +274,8 @@ li.displayed {
 
 nav ul li {
     display: inline;
-    margin-right:100px;
-    margin-left:-40px;
+    margin-right:0px;
+    margin-left:40px;
     font-family:'Nuvo', sans-serif;
     font-size: 90%;
 }
