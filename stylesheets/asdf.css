@@ -1,6 +1,6 @@
 /* Colors
-	==========================================================*/
-	pre .str, code .str { color: #65B042; } /* string  - green */
+==========================================================*/
+  pre .str, code .str { color: #65B042; } /* string  - green */
   pre .kwd, code .kwd { color: #1e6cb0; } /* keyword - dark pink */
   pre .com, code .com { color: #afbcdb; font-style: italic; } /* comment - gray */
   pre .typ, code .typ { color: #9F00C5; } /* type - light blue */
@@ -12,17 +12,17 @@
   pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
   pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
 
-pre.prettyprint, code.prettyprint {
-    border-color:#D7D7D7;
-    background-color: #fff;
-      -moz-border-radius: 1px;
-      -webkit-border-radius: 1px;
-      -o-border-radius: 7px;
-      -ms-border-radius: 1px;
-      -khtml-border-radius: 1px;
-    border-radius: 1px;
-      -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
+  pre.prettyprint, code.prettyprint {
+  	border-color:#D7D7D7;
+  	background-color: #fff;
+  	  -moz-border-radius: 1px;
+  	  -webkit-border-radius: 1px;
+  	  -o-border-radius: 7px;
+  	  -ms-border-radius: 1px;
+  	  -khtml-border-radius: 1px;
+  	border-radius: 1px;
+  	  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  	animation: mymove 5s infinite;
 }
 
 /* Chrome, Safari, Opera */
