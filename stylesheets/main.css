@@ -101,7 +101,21 @@ a {
   -moz-font-feature-settings: inherit;
   -ms-font-feature-settings: inherit;
   -o-font-feature-settings: inherit;
-}
+    &:after {
+			clear: both;
+			display: block;
+			content: "";
+			position: relative;
+			width: 0;
+			left: 50%;
+			height: 3px;
+			background: #FC2366;
+			@include transition(width .2s, left .2s);
+			border-radius: 6px; }
+		&:hover, &:focus {
+			&:after {
+				width: 100%;
+				left: 0; } } }
   a:hover {
     color: #004952;
     -webkit-transition: 0.5s ease;
