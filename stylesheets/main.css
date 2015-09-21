@@ -241,7 +241,8 @@ h6 {
       font-size:2.5rem;
       color:#00B4F1;
       font-family:'CooHewBk', sans-serif;
-      border-bottom:none;
+      text-transform: uppercase;
+      border-bottom: none;
       background: transparent;
       display: block;
       margin: 0.5em 0;
