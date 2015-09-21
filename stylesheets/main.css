@@ -220,7 +220,7 @@ h6 {
   border-bottom: solid 1px #eff0f1;
   margin-bottom:1rem;
   padding-bottom:1rem;
-  font-family:'CooHewBk', sans-serif;
+  font-family:'CooHewLig', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -240,8 +240,7 @@ h6 {
 #header-left a {
       font-size:2.5rem;
       color:#00B4F1;
-      font-family:'CooHewBk', sans-serif;
-      text-transform: uppercase;
+      font-family:'CooHewLig', sans-serif;
       border-bottom: none;
       background: transparent;
       display: block;
@@ -277,7 +276,7 @@ h6 {
       font-size: 2.5rem; } }
 
 .site-footer {
-  font-family:'CooHewBk', sans-serif;
+  font-family:'CooHewLig', sans-serif;
   font-weight:300;
   padding-top: 3rem;
   margin-top: 3rem;
@@ -336,7 +335,7 @@ nav ul li {
     display: inline;
     margin-right:0px;
     margin-left:30px;
-    font-family:'CooHewBk', sans-serif;
+    font-family:'CooHewLig', sans-serif;
     font-size: 90%;
 }
 
