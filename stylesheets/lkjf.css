@@ -34,6 +34,11 @@
 }
 
 @font-face {
+  font-family:'CooHewLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Light.woff') format('woff');
+}
+
+@font-face {
   font-family:'CooHewTh';
   src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Thin.woff') format('woff');
 }
@@ -91,6 +96,6 @@
 }
 
 @font-face {
-  font-family:'CooHewBk';
-  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Book.woff') format('woff');
+  font-family:'CooHewLig';
+  src: url('https://raw.githubusercontent.com/a-mar/shiz/master/ergh/CooperHewitt-Light.woff') format('woff');
 }
