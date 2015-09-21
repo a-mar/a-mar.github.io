@@ -349,7 +349,7 @@ nav ul li {
     text-transform: uppercase;
     }
       nav a:hover {
-        color: #162833;
+        color:#00B4F1;
         background-color: rgba(0,99,133,0.1);
         padding: 13px 15px;
         border-radius: 5px;
