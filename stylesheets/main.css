@@ -244,13 +244,13 @@ h6 {
 }
 
 #header-left a {
-      font-size:2.5rem;
-      color:#00B4F1;
-      font-family:'CooHewLig', sans-serif;
-      border-bottom: none;
-      background: transparent;
-      display: block;
-      margin: 0.5em 0;
+   font-size:2.5rem;
+   color:#00B4F1;
+   font-family:'CooHewLig', sans-serif;
+   border-bottom: none;
+   background: transparent;
+   display: block;
+   margin: 0.5em 0;
 }
     #header-left a:hover {
       color: rgba(0,99,133,0.5);
@@ -404,7 +404,7 @@ nav ul li {
   @media screen and (max-width: 42em) {
     nav ul li {
       margin-right: 0px;
-      margin-left: auto; }
+      margin-left: 0px; }
     nav a {
       padding: 5px 7px; }
     nav a:hover {
