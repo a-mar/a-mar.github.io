@@ -243,7 +243,7 @@ h6 {
   margin: 0.5em 0;
 }
    #header-left a {
-     font-size: 2.5em;
+     font-size: 2.5rem;
      color: #00B4F1;
      font-family:'CooHewLig', sans-serif;
      text-decoration: none;
@@ -258,13 +258,13 @@ h6 {
 /* Page header */
   @media screen and (min-width: 64em) {
     #header-left {
-      font-size: 2.5em; } }
+      font-size: 2.5rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left {
-      font-size: 1.7em; } }
+      font-size: 1.7rem; } }
   @media screen and (max-width: 42em) {
     #header-left {
-      font-size: 1.3em;
+      font-size: 1.3rem;
       margin: 1.3em 0; } }
 
 /* Page header */
