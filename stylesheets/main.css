@@ -231,44 +231,40 @@ h6 {
   font-style: normal;
 }
 
-#header-left {
-  float:left;
-  text-align:left;
-  margin-left:0px;
-}
-
 #header-right {
   text-align:right;
   margin-right:0;
   overflow: hidden;
 }
 
-#header-left a {
-   font-size:2.5rem;
-   color:#00B4F1;
-   font-family:'CooHewLig', sans-serif;
-   border-bottom: none;
-   background: transparent;
-   display: block;
-   margin: 0.5em 0;
+#header-left {
+  float:left;
+  text-align:left;
+  margin: 0.5em 0;
 }
-    #header-left a:hover {
-      color: rgba(0,99,133,0.5);
-      background: transparent;
-      display: block;
-      margin: 0.5em 0;
-    }
+   #header-left a {
+     font-size:2.5rem;
+     color:#00B4F1;
+     font-family:'CooHewLig', sans-serif;
+     text-decoration: none;
+     background: transparent;
+     display: block;
+  }
+      #header-left a:hover {
+       color: rgba(0,99,133,0.5);
+       background: transparent;
+     }
 
 /* Page header */
   @media screen and (min-width: 64em) {
-    #header-left a {
-      font-size:2.5rem; } }
+    #header-left {
+      font-size: 2.5rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    #header-left a {
-      font-size:1.7rem; } }
+    #header-left {
+      font-size: 1.7rem; } }
   @media screen and (max-width: 42em) {
-    #header-left a {
-      font-size:1.3rem;
+    #header-left {
+      font-size: 1.3rem;
       margin: 1.3em 0; } }
 
 /* Page header */
