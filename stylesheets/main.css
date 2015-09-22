@@ -300,15 +300,6 @@ h6 {
   border-top: solid 1px #eff0f1;
   font-size: 83%;
 }
-  @media screen and (min-width: 64em) {
-    .site-footer {
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .site-footer {
-      font-size: 1rem; } }
-  @media screen and (max-width: 42em) {
-    .site-footer {
-      font-size: 0.9rem; } }
 
 .site-footer a {
   background:transparent;
@@ -325,6 +316,8 @@ h6 {
 
 .site-footer-owner {
   text-align:center;
+  margin-top: -41px;
+  padding-top: -41px;
 }
 
 .site-footer-credits {
@@ -342,6 +335,25 @@ h6 {
     text-transform:lowercase;
     margin-left:10px;
 }
+
+@media screen and (min-width: 64em) {
+    .site-footer {
+      font-size: 1.1rem; }
+    .site-footer-owner {
+      margin-top: -41px;
+      padding-top: -41px; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .site-footer {
+      font-size: 1rem; } 
+    .site-footer-owner {
+      margin-top: -31px;
+      padding-top: -31px; } }
+  @media screen and (max-width: 42em) {
+    .site-footer {
+      font-size: 0.9rem; } 
+    .site-footer-owner {
+      margin-top: auto;
+      padding-top: auto; } }
 
 li.displayed {
     display: inline;
@@ -373,16 +385,25 @@ nav ul li {
       }
   
   @media screen and (min-width: 64em) {
+    nav ul li {
+      margin-right: 0px;
+      margin-left: 30px; }
     nav a {
       padding: 13px 15px; }
     nav a:hover {
       padding: 13px 15px; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
+    nav ul li {
+      margin-right: 0px;
+      margin-left: 30px; }
     nav a {
       padding: 7px 9px; }
     nav a:hover {
       padding: 7px 9px; } }
   @media screen and (max-width: 42em) {
+    nav ul li {
+      margin-right: 0px;
+      margin-left: auto; }
     nav a {
       padding: 5px 7px; }
     nav a:hover {
