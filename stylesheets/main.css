@@ -247,7 +247,6 @@ h6 {
      color: #00B4F1;
      text-decoration: none;
      background: transparent;
-     display: block;
   }
       #header-left a:hover {
        color: rgba(0,99,133,0.5);
@@ -264,7 +263,7 @@ h6 {
   @media screen and (max-width: 42em) {
     #header-left {
       font-size: 1.3rem;
-      margin: 1.3em 0; } }
+      margin: 1.3em auto; } }
 
 /* Page header */
   @media screen and (min-width: 64em) {
