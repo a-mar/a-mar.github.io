@@ -355,8 +355,8 @@ h6 {
     .site-footer {
       font-size: 0.9rem; } 
     .site-footer-owner {
-      margin-top: auto;
-      padding-top: auto; } }
+      margin-top: -17px;
+      padding-top: -17px; } }
 
 li.displayed {
     display: inline;
