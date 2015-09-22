@@ -312,9 +312,6 @@ h6 {
 .site-footer-owner, .site-footer-credits, .site-footer-other {
   display: block;
   color: #819198;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .site-footer-owner {
