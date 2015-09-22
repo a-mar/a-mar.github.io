@@ -241,7 +241,9 @@ h6 {
   font: 2.5rem; 'CooHewLig', sans-serif;
   float: left;
   text-align: left;
-  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
    #header-left a {
      color: #00B4F1;
