@@ -242,7 +242,6 @@ h6 {
   float: left;
   text-align: left;
   margin-top: 0.5em;
-  padding-top: 0.5em;
 }
    #header-left a {
      color: #00B4F1;
@@ -262,7 +261,7 @@ h6 {
   @media screen and (min-width: 42em) and (max-width: 64em) {
     #header-left {
       font-size: 1.7rem;
-      margin: 1em auto; } }
+      margin: 0.5em auto; } }
   @media screen and (max-width: 42em) {
     #header-left {
       font-size: 1.3rem;
