@@ -366,18 +366,34 @@ nav ul li {
     font-size: 90%;
 }
 
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
   nav a {
     color: #004952;
     text-decoration: none;
     padding: 13px 15px;
     font-weight: normal;
     border-bottom:none;
-    background:transparent;
+    background: linear-gradient(transparent 50%, rgba(0,99,133,0.1) 0%);
+    background-size: 100% 201%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     text-transform: uppercase;
+    animation: down-bump 0.4s ease;
     }
       nav a:hover {
         color:#00B4F1;
-        background-color: rgba(0,99,133,0.1);
+        background-position: 100% 100%;
+        animation: up-bump 0.4s ease;
         padding: 13px 15px;
         border-radius: 5px;
       }
