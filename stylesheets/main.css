@@ -101,9 +101,9 @@ a {
   background: linear-gradient(to right, rgba(255,0,53,.67) 50%, transparent 0%);
   background-size: 201% 100%;
   background-position:right bottom;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
   font-feature-settings: inherit;
   text-rendering: optimizeLegibility;
@@ -374,8 +374,8 @@ nav ul li {
     border-bottom:none;
     background: linear-gradient(transparent 50%, rgba(0,99,133,0.1) 0%);
     background-size: 100% 201%;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     text-transform: uppercase;
     }
       nav a:hover {
