@@ -238,6 +238,7 @@ h6 {
 }
 
 #header-left {
+  overflow: hidden
   font: 2.5rem; 'CooHewLig', sans-serif;
   float: left;
   text-align: left;
