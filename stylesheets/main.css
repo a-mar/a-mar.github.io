@@ -125,7 +125,8 @@ a {
   }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#00B4F1;
+  /* color:#00B4F1; */
+  color: #FF4900;
   font-family:'Nuvo', sans-serif;
   font-weight: normal;
   font-feature-settings: inherit;
