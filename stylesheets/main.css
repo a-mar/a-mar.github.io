@@ -97,7 +97,7 @@ a {
   color: #30B0B0;
   text-decoration: none;
   padding:0.7px 1.3px; 
-  border-radius: 9px;
+  border-radius: 8px;
   background: linear-gradient(to right, rgba(0,100,107,0.73) 50%, transparent 0%);
   background-size: 201% 100%;
   background-position:right bottom;
