@@ -98,7 +98,7 @@ a {
   text-decoration: none;
   padding:1px 2px; 
   border-radius: 9px;
-  background: linear-gradient(to right, #004952, #005F64, #007B82, rgba(0,186,186,.67) 50%, transparent 0%);
+  background: linear-gradient(to right, rgba(0,73,82,0.67), rgba(0,95,100,0.67), rgba(0,123,130,0.67), rgba(0,186,186,.67) 50%, transparent 0%);
   background-size: 201% 100%;
   background-position:right bottom;
   -webkit-transition: all 0.3s;
