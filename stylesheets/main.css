@@ -59,7 +59,7 @@ p {
   -o-font-feature-settings: inherit;
 }
 
-.some-notes {
+.notes {
   font: 133%/1.35; 'CooHewLig', sans-serif;
   text-transform: uppercase;
   margin-left: auto;
