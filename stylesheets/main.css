@@ -442,6 +442,7 @@ ul li:before {
     font-family: 'FontAwesome';
     content: '\f10c';
     margin:0 4px 11px -15px;
+    padding-bottom: 11px;
     color: #00B4F1;
     font-size: 9pt;
 }
