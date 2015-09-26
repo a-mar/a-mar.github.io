@@ -427,8 +427,8 @@ div.trim {
      overflow: hidden;
  }
   div.trim a {
-    color: transparent;
-    background: transparent;
+    color: none;
+    background: none;
     padding: 0;
   }
 
