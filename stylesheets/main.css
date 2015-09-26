@@ -419,3 +419,13 @@ img.displayed {
 li:not(:last-child) {
     padding-bottom: 6px;
 }
+
+@media screen and (min-width: 64em) {
+    img {
+      width: auto; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    img {
+      width: 97%; } }
+  @media screen and (max-width: 42em) {
+    img {
+      width: 80%; } }
