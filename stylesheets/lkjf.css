@@ -99,3 +99,8 @@
   font-family:'CooHewLig';
   src: url('https://cdn.rawgit.com/a-mar/shiz/master/ergh/CooperHewitt-Light.woff') format('woff');
 }
+
+@font-face {
+  font-family:'CooHewBk';
+  src: url('https://cdn.rawgit.com/a-mar/shiz/master/ergh/CooperHewitt-Book.woff') format('woff');
+}
