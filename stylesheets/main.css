@@ -59,6 +59,13 @@ p {
   -o-font-feature-settings: inherit;
 }
 
+.some-notes {
+  font: 133%/1.35; 'CooHewLig', sans-serif;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 em {
   /* font-family: 'FiraBookIt', sans-serif; */
   color:#FF4900;
