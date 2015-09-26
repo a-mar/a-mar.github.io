@@ -457,7 +457,7 @@ ol {
 }
 
 ol li:before {    
-    font-family: 'Bauer';
+    font-family: 'Bauer', sans-serif;
     position: absolute;
     width: 2em;
     left: -1.5em;
