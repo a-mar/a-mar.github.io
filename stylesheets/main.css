@@ -437,9 +437,9 @@ ul {
 ul li:before {    
     font-family: 'FontAwesome';
     content: '\f10c';
-    margin:0 4px 0 -15px;
+    margin:0 4px 2px -15px;
     color: #00B4F1;
-    font-size: 11pt;
+    font-size: 9pt;
 }
 li:not(:last-child) {
     padding-bottom: 6px;
