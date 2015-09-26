@@ -438,6 +438,8 @@ ul li:before {
     font-family: 'FontAwesome';
     content: '\f10c';
     margin:0 4px 0 -15px;
+    color: #00B4F1;
+    font-size: 11pt;
 }
 li:not(:last-child) {
     padding-bottom: 6px;
