@@ -429,7 +429,7 @@ div.trim {
 
 img.fig {
   display: block;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
