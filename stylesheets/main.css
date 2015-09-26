@@ -441,7 +441,7 @@ ul {
 ul li:before {    
     font-family: 'FontAwesome';
     content: '\f10c';
-    margin:0 4px 11px -15px;
+    margin:0 4px 15px -15px;
     line-height: 1.4em;
     color: #00B4F1;
     font-size: 9pt;
