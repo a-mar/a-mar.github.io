@@ -414,7 +414,7 @@ nav ul li {
 img.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; }
 
 li:not(:last-child) {
     padding-bottom: 6px;
@@ -426,3 +426,20 @@ div.trim {
      width: auto;
      overflow: hidden;
  }
+
+img.fig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image Figure*/
+@media screen and (min-width: 64em) {
+    img.fig {
+      width: auto;} }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    img.fig {
+      width: 100%;} }
+  @media screen and (max-width: 42em) {
+    img.fig {
+      width: 100%;} }
