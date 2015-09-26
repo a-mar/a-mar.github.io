@@ -59,7 +59,7 @@ p {
   -o-font-feature-settings: inherit;
 }
 
-p.sidenote {
+.sidenote {
   font: 133%/1.35; 'CooHewLig', sans-serif;
   color: #007B82;
   text-transform: uppercase;
