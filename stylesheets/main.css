@@ -429,13 +429,10 @@ div.trim {
  
 @media screen and (min-width: 64em) {
     div.trim {
-     max-width: auto;
      width: auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     div.trim {
-      max-width: auto;
       width: 100%; } }
   @media screen and (max-width: 42em) {
     div.trim {
-      max-width: auto;
       width: 100%; } }
