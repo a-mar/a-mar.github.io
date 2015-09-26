@@ -420,12 +420,17 @@ li:not(:last-child) {
     padding-bottom: 6px;
 }
 
+div.trim {
+     max-height: 100px;
+     overflow: hidden;
+ }
+ 
 @media screen and (min-width: 64em) {
-    img {
+    div.trim {
       width: auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
-    img {
+    div.trim {
       width: 100%; } }
   @media screen and (max-width: 42em) {
-    img {
+    div.trim {
       width: 100%; } }
