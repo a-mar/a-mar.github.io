@@ -434,10 +434,10 @@ ul {
   list-style:none; 
 }
 
-li:before {    
+ul li:before {    
     font-family: 'FontAwesome';
-    content: '\f1e3';
-    margin:0 5px 0 -15px;
+    content: '\f10c';
+    margin:0 4px 0 -15px;
 }
 li:not(:last-child) {
     padding-bottom: 6px;
