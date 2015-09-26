@@ -422,15 +422,20 @@ li:not(:last-child) {
 
 div.trim {
      max-height: 100px;
+     max-width: auto;
+     width: auto;
      overflow: hidden;
  }
  
 @media screen and (min-width: 64em) {
     div.trim {
-      width: auto; } }
+     max-width: auto;
+     width: auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     div.trim {
+      max-width: 100%;
       width: 100%; } }
   @media screen and (max-width: 42em) {
     div.trim {
+      max-width: 100%;
       width: 100%; } }
