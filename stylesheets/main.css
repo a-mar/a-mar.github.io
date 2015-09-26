@@ -426,6 +426,11 @@ div.trim {
      width: auto;
      overflow: hidden;
  }
+  div.trim a {
+    color: transparent;
+    background: transparent;
+    padding: 0;
+  }
 
 img.fig {
   display: block;
