@@ -421,7 +421,7 @@ li:not(:last-child) {
 }
 
 div.trim {
-     max-height: 71px;
+     max-height: 73px;
      max-width: auto;
      width: auto;
      overflow: hidden;
