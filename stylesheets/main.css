@@ -449,6 +449,17 @@ ul li:before {
     padding-bottom: 1em;
     color: #00B4F1;
     font-size: 9pt;
+    line-height: 1.2;
+}
+
+ol li:before {    
+    font-family: 'Bauer';
+    position: absolute;
+    width: 2em;
+    left: -1.5em;
+    color: #00B4F1;
+    text-align: right;
+    line-height: 1.2;
 }
 
 div.trim {
