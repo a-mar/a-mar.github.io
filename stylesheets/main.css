@@ -438,6 +438,10 @@ ul {
   list-style:none; 
 }
 
+li:not(:last-child) {
+    padding-bottom: 6px;
+}
+
 ul li:before {    
     font-family: 'FontAwesome';
     content: '\f10c';
@@ -445,9 +449,6 @@ ul li:before {
     line-height: 1.4em;
     color: #00B4F1;
     font-size: 9pt;
-}
-li:not(:last-child) {
-    padding-bottom: 6px;
 }
 
 div.trim {
