@@ -452,6 +452,10 @@ ul li:before {
     line-height: 1.2;
 }
 
+ol {
+  list-style: none;
+}
+
 ol li:before {    
     font-family: 'Bauer';
     position: absolute;
