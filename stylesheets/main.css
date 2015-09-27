@@ -461,6 +461,7 @@ ul li:before {
     padding: 0;
     left: -1.3em;
     width: 1em;
+    vertical-align: baseline;
 }
 
 .custom-counter {
@@ -476,6 +477,11 @@ ul li:before {
 
 .custom-counter li::before {
   font-family: 'Bauer', sans-serif;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  text-transform: none;
+  -webkit-font-feature-settings: "tnum" 1, "lnum" 1;
+  -ms-font-feature-settings: "tnum" 1, "lnum" 1;
+  -o-font-feature-settings: "tnum" 1, "lnum" 1;
   content: counter(item);
   display: block;
   position: absolute;
@@ -486,8 +492,8 @@ ul li:before {
   font-weight: bold;
   padding: 3px 8px;
   border-radius: 3px;
-  left: -1.3em;
-  width: 1em;
+  left: -1.2em;
+  width: 0.95em;
 }
 
 div.trim {
