@@ -450,6 +450,7 @@ ul li:before {
     color: rgba(0,200,200,1);
     font-size: 9pt;
     line-height: 1.2;
+    vertical-align: text-top;
 }
 
 .custom-counter {
@@ -457,17 +458,18 @@ ul li:before {
 }
 
 .custom-counter li {
-  counter-increment: step-counter;
+  counter-increment: item;
   margin-bottom: 10px;
 }
 
 .custom-counter li::before {
   font-family: 'Bauer', sans-serif;
-  content: counter(step-counter);
+  content: counter(item);
   display: block;
-  text-align: right;
-  line-height: 1.1;
   position: absolute;
+  left: -2.5em;
+  width: 2em;
+  text-align: right;
   font-size: 73%;
   background-color: rgb(0,200,200);
   color: #fff;
