@@ -445,11 +445,11 @@ li:not(:last-child) {
 ul li:before {    
     font-family: 'FontAwesome';
     content: '\f10c';
-    margin:0 4px 0px -15px;
+    margin:0 4px -15px -15px;
     padding-bottom: 1em;
     color: rgba(0,200,200,1);
     font-size: 9pt;
-    line-height: 1.2;
+    line-height: 0.11em;
     vertical-align: text-top;
 }
 
