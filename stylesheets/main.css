@@ -461,7 +461,7 @@ ul li:before {
     margin: 0;
     padding: 0;
     left: -30px;
-    width: auto;
+    width: 1em;
 }
 
 .custom-counter {
@@ -488,7 +488,7 @@ ul li:before {
   padding: 3px 8px;
   border-radius: 3px;
   left: -30px;
-  width: auto;
+  width: 1em;
 }
 
 div.trim {
