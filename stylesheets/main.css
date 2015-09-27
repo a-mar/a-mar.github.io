@@ -73,7 +73,7 @@ p {
 }
 
 .highlighted {
-  background-color: #DEF;
+  background-color: rgba(234,255,0,0.53);
 }
 
 em {
@@ -457,7 +457,7 @@ ul li:before {
     content: '\f10c';
     color: rgba(0,200,200,1);
     font-size: 9pt;
-    line-height: 1em;
+    line-height: 0.1em;
     display: block;
     position: absolute;
     text-align: right;
@@ -496,8 +496,8 @@ ul li:before {
   font-weight: bold;
   padding: 3px 8px;
   border-radius: 3px;
-  left: -2.3em;
-  width: 1.2em;
+  left: -2.5em;
+  width: 1.13em;
 }
 
 div.trim {
