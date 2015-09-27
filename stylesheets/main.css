@@ -466,8 +466,12 @@ ul li:before {
 .custom-counter li::before {
   font-family: 'Bauer', sans-serif;
   content: counter(step-counter);
-  margin-right: 5px;
-  font-size: 80%;
+  text-align: right;
+  line-height: 1.2;
+  position: absolute;
+  width: 2em;
+  left: -1.5em;
+  font-size: 73%;
   background-color: rgb(0,200,200);
   color: #fff;
   font-weight: bold;
