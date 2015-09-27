@@ -73,7 +73,7 @@ p {
 }
 
 .highlighted {
-  background-color: rgba(252,35,102,0.23);
+  background-color: rgba(252,241,0,0.23);
 }
 
 em {
@@ -509,12 +509,12 @@ ul li:before {
     .custom-counter li::before {
       font-size: 63%;
       left: -2.43em;
-      width: 1em; } }
+      width: 1.1em; } }
   @media screen and (max-width: 42em) {
     .custom-counter li::before {
       font-size: 53%;
-      left: -2em;
-      width: 1em; } }
+      left: -2.1em;
+      width: 1.1em; } }
 
 div.trim {
      max-height: 73px;
