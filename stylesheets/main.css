@@ -72,6 +72,10 @@ p {
   margin-right: auto;
 }
 
+.highlighted {
+  background-color: #DEF;
+}
+
 em {
   /* font-family: 'FiraBookIt', sans-serif; */
   color:#FF4900;
@@ -453,7 +457,7 @@ ul li:before {
     content: '\f10c';
     color: rgba(0,200,200,1);
     font-size: 9pt;
-    line-height: 1.5;
+    line-height: 1em;
     display: block;
     position: absolute;
     text-align: right;
@@ -492,7 +496,7 @@ ul li:before {
   font-weight: bold;
   padding: 3px 8px;
   border-radius: 3px;
-  left: -2em;
+  left: -2.3em;
   width: 1.2em;
 }
 
