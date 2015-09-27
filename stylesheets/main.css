@@ -445,7 +445,7 @@ li:not(:last-child) {
 ul li:before {    
     font-family: 'FontAwesome';
     content: '\f10c';
-    margin:0 4px 1em -15px;
+    margin:0 4px 0px -15px;
     padding-bottom: 1em;
     color: rgba(0,200,200,1);
     font-size: 9pt;
