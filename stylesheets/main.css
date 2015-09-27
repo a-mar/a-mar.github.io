@@ -60,12 +60,12 @@ p {
 }
 
 .sidenote {
-  font-family: 'CooHewBk', sans-serif;
+  font-family: 'Bauer', sans-serif;
   font-size: 1.2em;
   color: #FF4900;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
+  font-weight: normal;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: auto;
