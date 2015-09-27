@@ -438,6 +438,12 @@ ul {
   list-style:none; 
 }
 
+li {
+  position: relative;
+  display: block;
+  list-style-position: outside;
+}
+
 li:not(:last-child) {
     padding-bottom: 6px;
 }
