@@ -72,10 +72,6 @@ p {
   margin-right: auto;
 }
 
-.highlighted {
-  background-color: rgba(252,241,0,0.23);
-}
-
 em {
   /* font-family: 'FiraBookIt', sans-serif; */
   color:#FF4900;
@@ -544,3 +540,7 @@ img.fig {
   @media screen and (max-width: 42em) {
     img.fig {
       width: 100%;} }
+
+.highlighted {
+  background-color: rgba(0,232,165,0.29);
+}
