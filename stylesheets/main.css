@@ -489,8 +489,8 @@ ul li:before {
   font-size: 74%;
   background-color: rgb(0,200,200);
   color: #fff;
-  font-weight: bold;
-  padding: 2px 7px;
+  font-weight: normal;
+  padding: 1px 6px;
   border-radius: 3px;
   left: -2.53em;
   width: 1.15em;
@@ -503,7 +503,7 @@ ul li:before {
       width: 1.15em; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .custom-counter li::before {
-      font-size: 63%;
+      font-size: 67%;
       left: -2.43em;
       width: 1.1em; } }
   @media screen and (max-width: 42em) {
